@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Loren Burkholder"
+	],
+	"copyright": "Copyright © 2025, Loren Burkholder",
+	"dependencies": {
+		"vibe-d": "~>0.10.2"
+	},
+	"description": "Build a Brave Goggle to only show content from blogs listed at indieblog.page",
+	"license": "GPL-3.0-or-later",
+	"name": "indieblog-goggle-generator"
+}
