@@ -23,8 +23,6 @@ void main()
     goggle.writeln();
     goggle.writeln("$boost=1,site=github.io");
     goggle.writeln("$boost=1,site=micro.blog");
-    goggle.writeln("/blog.$boost=1");
-    goggle.writeln("/blog/$boost=1");
 
     // ...as well as some of my own default ranks
     goggle.writeln("$boost=1,site=bearblog.dev");
