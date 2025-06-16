@@ -3,14 +3,13 @@
 ! public: true
 ! author: Loren Burkholder
 ! license: GPL 3.0 or later
+! avatar: #95F5E6
 
 $discard
 $downrank,site=medium.com
 
 $boost=1,site=github.io
 $boost=1,site=micro.blog
-/blog.$boost=1
-/blog/$boost=1
 $boost=1,site=bearblog.dev
 
 $boost=3,site=000fff.org
