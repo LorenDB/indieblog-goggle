@@ -15,6 +15,7 @@ void main()
     goggle.writeln("! public: true");
     goggle.writeln("! author: Loren Burkholder");
     goggle.writeln("! license: GPL 3.0 or later");
+    goggle.writeln("! avatar: #95F5E6");
     goggle.writeln();
 
     // Some static filtering stuff that I stole from the tech blogs example goggle because it looked like a sane default to add
