@@ -44,13 +44,23 @@ void main()
             import std.array;
             import std.algorithm;
             import vibe.inet.url;
+            import std.conv : to;
             
             string host = URL.fromString(blog["feedurl"].str.replace(`\`, ``)).host;
-            if (host.endsWith("medium.com"))
+
+            // Medium is annoying garbage, so we'll discard the general Medium URL
+            if (host == "medium.com")
                 continue;
+
             if (host.startsWith("www."))
                 host = host[4 .. $];
-            goggle.writeln("$boost=3,site=" ~ host);
+
+            // Continuing with the "Medium is garbage" theme, any Medium blogs get less boost
+            int boost = 3;
+            if (host.endsWith("medium.com"))
+                boost = 2;
+
+            goggle.writeln("$boost=" ~ boost.to!string ~ ",site=" ~ host);
         }
     });
 
