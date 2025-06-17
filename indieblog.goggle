@@ -5293,8 +5293,8 @@ $boost=3,site=ximenavf.com
 $boost=3,site=xingzhi.dev
 $boost=3,site=xkln.net
 $boost=3,site=xlark.sdf.org
-$boost=3,site=xn--gckvb8fzb.com
-$boost=3,site=xn--ime-zza.eu
+! $boost=3,site=xn--gckvb8fzb.com
+! $boost=3,site=xn--ime-zza.eu
 $boost=3,site=xnacly.me
 $boost=3,site=xnux.eu
 $boost=3,site=xoranth.net
