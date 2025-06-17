@@ -67,7 +67,7 @@ void main()
             // There is a bug in the data causing some sites' homepages to be listed
             // as a github.com URL or other wonky things. We'll use the feedurl as a
             // workaround.
-            if (url.host == "github.com" || url.host == "localhost")
+            if (url.host == "github.com" || url.host == "localhost" || url.host.contains('%'))
                 url = URL.fromString(blog["feedurl"].str.replace(`\`, ``));
 
             // We'll drop the www prefix as it's not useful here
