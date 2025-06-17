@@ -16,6 +16,7 @@ void main()
     goggle.writeln("! author: Loren Burkholder");
     goggle.writeln("! license: GPL 3.0 or later");
     goggle.writeln("! avatar: #95f5e6");
+    goggle.writeln("! homepage: https://github.com/LorenDB/indieblog-goggle");
     goggle.writeln();
 
     // Some static filtering stuff that I stole from the tech blogs example goggle
