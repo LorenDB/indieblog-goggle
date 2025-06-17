@@ -70,6 +70,11 @@ void main()
             if (url.host == "github.com" || url.host == "localhost" || url.host.count('%') > 0)
                 url = URL.fromString(blog["feedurl"].str.replace(`\`, ``));
 
+            // For some reason Brave is having problems with URLs with special characters,
+            // so we'll disable them for now.
+            if (url.host.startsWith("xn--"))
+                goggle.write("! ");
+
             // We'll drop the www prefix as it's not useful here
             if (url.host.startsWith("www."))
                 url.host = url.host[4 .. $];
