@@ -55,16 +55,27 @@ void main()
             }
             catch (Exception e)
             {
-                writeln("falling back");
+                // Some blogs have empty homepages, so we'll fall back to the feedurl
+                // domain.
                 url = URL.fromString(blog["feedurl"].str.replace(`\`, ``));
             }
 
+            // Discard some garbage results
+            if (url.host.endsWith("feedburner.com") || url.host.endsWith("granary.io"))
+                continue;
+
+            // There is a bug in the data causing some sites' homepages to be listed
+            // as a github.com URL or other wonky things. We'll use the feedurl as a
+            // workaround.
+            if (url.host == "github.com" || url.host == "localhost")
+                url = URL.fromString(blog["feedurl"].str.replace(`\`, ``));
+
+            // We'll drop the www prefix as it's not useful here
             if (url.host.startsWith("www."))
                 url.host = url.host[4 .. $];
 
             // Some sites get special handling for their boost level or their URL.
             int boost = 3;
-            string finalSite = url.host;
 
             if (url.host == "medium.com" || url.host == "dev.to")
             {
@@ -73,10 +84,10 @@ void main()
 
                 // Medium and Dev.to blogs need delineated by their user paths so
                 // as not to boost the entirety of those sites
-                finalSite ~= url.pathString;
+                goggle.write(url.pathString ~ '^');
             }
 
-            goggle.writeln("$boost=" ~ boost.to!string ~ ",site=" ~ finalSite);
+            goggle.writeln("$boost=" ~ boost.to!string ~ ",site=" ~ url.host);
         }
     });
 
