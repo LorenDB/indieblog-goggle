@@ -4,9 +4,9 @@
 ! author: Loren Burkholder
 ! license: GPL 3.0 or later
 ! avatar: #95f5e6
+! homepage: https://github.com/LorenDB/indieblog-goggle
 
 $discard
-$downrank,site=medium.com
 
 $boost=1,site=github.io
 $boost=1,site=micro.blog
