@@ -22,6 +22,7 @@ void main()
     // Some static filtering stuff that I stole from the tech blogs example goggle
     // because it looked like a sane default to add
     goggle.writeln("$discard");
+    goggle.writeln("$downrank,site=medium.com");
     goggle.writeln();
     goggle.writeln("$boost=1,site=github.io");
     goggle.writeln("$boost=1,site=micro.blog");
