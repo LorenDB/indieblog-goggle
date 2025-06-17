@@ -31,7 +31,7 @@ jobs:
       run: |
         git diff --exit-code indieblog.goggle || echo "changed=true" >> $GITHUB_OUTPUT
 
-    - name: Commit and push changes
+    - name: Commit, push, and submit changes to Brave
       if: steps.check_changes.outputs.changed == 'true'
       run: |
         git config user.name "GitHub Action"
