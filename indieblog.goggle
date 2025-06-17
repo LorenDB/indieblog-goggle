@@ -82,7 +82,6 @@ $boost=3,site=blog.kindel.com
 $boost=3,site=davidtran.me
 $boost=3,site=emre.me
 $boost=3,site=exilelifestyle.com
-$boost=3,site=feeds.feedburner.com
 $boost=3,site=infovore.org
 $boost=3,site=jonathancrowe.net
 $boost=3,site=lea.verou.me
@@ -101,7 +100,6 @@ $boost=3,site=igvita.com
 $boost=3,site=kottke.org
 $boost=3,site=petr-mitrichev.blogspot.com
 $boost=3,site=microkhan.com
-$boost=3,site=feeds2.feedburner.com
 $boost=3,site=foley.works
 $boost=3,site=forwardscattering.org
 $boost=3,site=future-secured.com
@@ -780,7 +778,7 @@ $boost=3,site=blog.janissary.xyz
 $boost=3,site=blog.jatan.space
 $boost=3,site=blog.jdboyd.net
 $boost=3,site=blog.jessfraz.com
-$boost=3,site=github.com
+$boost=3,site=blog.jfo.click
 $boost=3,site=blog.jgc.org
 $boost=3,site=blog.jgrossi.com
 $boost=3,site=blog.jim-nielsen.com
@@ -992,7 +990,7 @@ $boost=3,site=bohemiansultriness.nekoweb.org
 $boost=3,site=bohops.com
 $boost=3,site=bojanvidanovic.com
 $boost=3,site=bor0.wordpress.com
-$boost=3,site=github.com
+$boost=3,site=boricj.net
 $boost=3,site=boris.kourtoukov.com
 $boost=3,site=borodust.org
 $boost=3,site=boston.conman.org
@@ -1419,9 +1417,9 @@ $boost=3,site=deterministic.space
 $boost=3,site=detlef-huettemann.com
 $boost=3,site=deut-erium.github.io
 $boost=3,site=dev.krzaq.cc
-$boost=2,site=dev.to/brandonmichaelhunter
-$boost=2,site=dev.to/hasone
-$boost=2,site=dev.to/johntellsall
+/brandonmichaelhunter^$boost=2,site=dev.to
+/hasone^$boost=2,site=dev.to
+/johntellsall^$boost=2,site=dev.to
 $boost=3,site=devantuffin.pika.page
 $boost=3,site=developer.run
 $boost=3,site=devinprater.micro.blog
@@ -1692,7 +1690,6 @@ $boost=3,site=paulirish.com
 $boost=3,site=philipwalton.com
 $boost=3,site=revi.blog
 $boost=3,site=saneef.com
-$boost=3,site=feeds.feedburner.com
 $boost=3,site=theonlinephotographer.typepad.com
 $boost=3,site=thejeshgn.com
 $boost=3,site=felginep.github.io
@@ -2409,7 +2406,7 @@ $boost=3,site=kwon.nyc
 $boost=3,site=kwon.nyc
 $boost=3,site=kylebashour.com
 $boost=3,site=kylesethgray.com
-$boost=3,site=github.com
+$boost=3,site=kyleshevlin.com
 $boost=3,site=kyrofa.com
 $boost=3,site=kzimmermann.0x.no
 $boost=3,site=l-o-o-s-e-d.net
@@ -2560,7 +2557,6 @@ $boost=3,site=lukeb.co.uk
 $boost=3,site=lukehansford.me
 $boost=3,site=lukelowrey.com
 $boost=3,site=lukeplant.me.uk
-$boost=3,site=lukesempire.comhttps
 $boost=3,site=lukesmith.xyz
 $boost=3,site=lukesnotes.mataroa.blog
 $boost=3,site=lukmayer.github.io
@@ -2585,7 +2581,7 @@ $boost=3,site=macwright.com
 $boost=3,site=maczarr.de
 $boost=3,site=maddie.info
 $boost=3,site=madduci.netlify.app
-$boost=3,site=github.com
+$boost=3,site=mademistakes.com
 $boost=3,site=mademistakes.com
 $boost=3,site=maerk.xyz
 $boost=3,site=maff.scot
@@ -2735,7 +2731,7 @@ $boost=3,site=mediageek.net
 $boost=3,site=mediajunkie.com
 $boost=3,site=mediocregopher.com
 $boost=3,site=blog.utveckla.re
-$boost=2,site=medium.com/@ftrain
+/@ftrain^$boost=2,site=medium.com
 $boost=3,site=medriscoll.com
 $boost=3,site=medwa.io
 $boost=3,site=meetryanflowers.com
@@ -3948,7 +3944,7 @@ $boost=3,site=tomcritchlow.com
 $boost=3,site=tomekdev.com
 $boost=3,site=tomhummel.com
 $boost=3,site=tomk32.de
-$boost=3,site=github.com
+$boost=3,site=tommasoamici.com
 $boost=3,site=tommi.space
 $boost=3,site=tommi.space
 $boost=3,site=tomodachi94.github.io
@@ -4067,7 +4063,7 @@ $boost=3,site=victorzhou.com
 $boost=3,site=viderationale.blog
 $boost=3,site=vijayprema.com
 $boost=3,site=vikramoberoi.com
-$boost=3,site=github.com
+$boost=3,site=viksit.com
 $boost=3,site=viljamis.com
 $boost=3,site=villapirorum.netlify.app
 $boost=3,site=vinc.cc
@@ -4144,7 +4140,7 @@ $boost=3,site=why.degree
 $boost=3,site=whynothugo.nl
 $boost=3,site=widowbadass.com
 $boost=3,site=wildmanlife.com
-$boost=3,site=localhost
+$boost=3,site=willcodeforcoffee.com
 $boost=3,site=willhbr.net
 $boost=3,site=williamboles.me
 $boost=3,site=williamdurand.fr
@@ -4503,7 +4499,7 @@ $boost=3,site=gabrielgamil.com
 $boost=3,site=gabriellacroix.com
 $boost=3,site=galacticbeyond.com
 $boost=3,site=gannetdesigns.com
-$boost=3,site=github.com
+$boost=3,site=gasparevitta.com
 $boost=3,site=gautamnarula.com
 $boost=3,site=gautampk.com
 $boost=3,site=gdcorner.com
@@ -4700,7 +4696,7 @@ $boost=3,site=masswerk.at
 $boost=3,site=cdn.masterorganicchemistry.com
 $boost=3,site=matheusrich.com
 $boost=3,site=matsimitsu.com
-$boost=3,site=github.com
+$boost=3,site=matthagner.com
 $boost=3,site=matthewcantelon.ca
 $boost=3,site=matthewhowell.net
 $boost=3,site=matthewroach.me
