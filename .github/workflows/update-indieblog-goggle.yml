@@ -1,0 +1,38 @@
+name: Update indieblog.goggle
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up D
+      uses: dlang/setup-dlang@v2
+      with:
+        compiler: dmd
+
+    - name: Run dub
+      run: dub run
+
+    - name: Check for changes in indieblog.goggle
+      id: check_changes
+      run: |
+        git diff --exit-code indieblog.goggle || echo "changed=true" >> $GITHUB_OUTPUT
+
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.changed == 'true'
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "action@github.com"
+        git add indieblog.goggle
+        git commit -m "[bot] Update indieblog.goggle"
+        git push origin master
