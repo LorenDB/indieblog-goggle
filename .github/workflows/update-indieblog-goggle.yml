@@ -42,4 +42,8 @@ jobs:
 
         # Wait a bit to make sure that the goggle will be publicly accessible
         sleep 10
-        curl -X POST "https://search.brave.com/api/goggles/submit?url=https%3A%2F%2Fraw.githubusercontent.com%2FLorenDB%2Findieblog-goggle%2Frefs%2Fheads%2Fmaster%2Findieblog.goggle"
+        output=$(curl -X POST "https://search.brave.com/api/goggles/submit?url=https%3A%2F%2Fraw.githubusercontent.com%2FLorenDB%2Findieblog-goggle%2Frefs%2Fheads%2Fmaster%2Findieblog.goggle")
+        echo $output
+        if echo "$output" | jq -e '.success == false' > /dev/null; then
+          exit 1
+        fi
