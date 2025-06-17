@@ -18,7 +18,8 @@ void main()
     goggle.writeln("! avatar: #95f5e6");
     goggle.writeln();
 
-    // Some static filtering stuff that I stole from the tech blogs example goggle because it looked like a sane default to add
+    // Some static filtering stuff that I stole from the tech blogs example goggle
+    // because it looked like a sane default to add
     goggle.writeln("$discard");
     goggle.writeln("$downrank,site=medium.com");
     goggle.writeln();
@@ -45,22 +46,37 @@ void main()
             import std.algorithm;
             import vibe.inet.url;
             import std.conv : to;
-            
-            string host = URL.fromString(blog["feedurl"].str.replace(`\`, ``)).host;
 
-            // Medium is annoying garbage, so we'll discard the general Medium URL
-            if (host == "medium.com")
-                continue;
+            URL url;
 
-            if (host.startsWith("www."))
-                host = host[4 .. $];
+            try
+            {
+                url = URL.fromString(blog["homepage"].str.replace(`\`, ``));
+            }
+            catch (Exception e)
+            {
+                writeln("falling back");
+                url = URL.fromString(blog["feedurl"].str.replace(`\`, ``));
+            }
 
-            // Continuing with the "Medium is garbage" theme, any Medium blogs get less boost
+            if (url.host.startsWith("www."))
+                url.host = url.host[4 .. $];
+
+            // Some sites get special handling for their boost level or their URL.
             int boost = 3;
-            if (host.endsWith("medium.com"))
+            string finalSite = url.host;
+
+            if (url.host == "medium.com" || url.host == "dev.to")
+            {
+                // Medium and Dev.to often have lower quality content
                 boost = 2;
 
-            goggle.writeln("$boost=" ~ boost.to!string ~ ",site=" ~ host);
+                // Medium and Dev.to blogs need delineated by their user paths so
+                // as not to boost the entirety of those sites
+                finalSite ~= url.pathString;
+            }
+
+            goggle.writeln("$boost=" ~ boost.to!string ~ ",site=" ~ finalSite);
         }
     });
 
