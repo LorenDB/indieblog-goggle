@@ -99,6 +99,7 @@ $boost=3,site=nancyfriedman.typepad.com
 $boost=3,site=hanselman.com
 $boost=3,site=igvita.com
 $boost=3,site=kottke.org
+$boost=3,site=exilelifestyle.com
 $boost=3,site=petr-mitrichev.blogspot.com
 $boost=3,site=microkhan.com
 $boost=3,site=foley.works
@@ -190,6 +191,7 @@ $boost=3,site=veritas.hurty.net
 $boost=3,site=vool.ie
 $boost=3,site=whathelpsthehomeless.blogspot.com
 $boost=3,site=whatsheonaboutnow.blogspot.com
+$boost=3,site=williamgallagher.com
 $boost=3,site=williamgallagher.com
 $boost=3,site=adambourg.com
 $boost=3,site=afronski.pl
@@ -295,6 +297,7 @@ $boost=3,site=adrian.schoenig.me
 $boost=3,site=adrianroselli.com
 $boost=3,site=adropincalm.com
 $boost=3,site=adventuretaco.com
+$boost=3,site=aethermug.com
 $boost=3,site=affluentdetritus.com
 $boost=3,site=afnan.io
 $boost=3,site=agarwaen.net
@@ -1002,6 +1005,7 @@ $boost=3,site=botondballo.wordpress.com
 $boost=3,site=bottledaux.com
 $boost=3,site=bower.sh
 $boost=3,site=boyter.org
+$boost=3,site=bradbarrish.com
 $boost=3,site=bradgarropy.com
 $boost=3,site=bradhodge.ca
 $boost=3,site=brainbaking.com
@@ -1242,6 +1246,7 @@ $boost=3,site=colinwalker.blog
 $boost=3,site=colinwalker.blog
 $boost=3,site=collantes.us
 $boost=3,site=colly.com
+$boost=3,site=colly.com
 $boost=3,site=colobu.com
 $boost=3,site=componenthouse.com
 $boost=3,site=conatusprinciple.blog
@@ -1265,6 +1270,7 @@ $boost=3,site=cosmicheroes.space
 $boost=3,site=cosmiclog.com
 $boost=3,site=cosmicqbit.dev
 $boost=3,site=covell.ca
+$boost=3,site=coyotetracks.org
 $boost=3,site=cpl.li
 $boost=3,site=cprimozic.net
 $boost=3,site=cprimozic.net
@@ -1339,6 +1345,7 @@ $boost=3,site=dansblog.netlify.app
 $boost=3,site=dansinker.com
 $boost=3,site=danyow.net
 $boost=3,site=darekkay.com
+$boost=3,site=darice.org
 $boost=3,site=daringfireball.net
 $boost=3,site=daringsnowball.net
 $boost=3,site=dariusforoux.com
@@ -1401,6 +1408,7 @@ $boost=3,site=debianaddict.com
 $boost=3,site=declanbyrd.co.uk
 $boost=3,site=decoding.io
 $boost=3,site=deeden.co.uk
+$boost=3,site=deepakness.com
 $boost=3,site=defn.io
 $boost=3,site=degruchy.org
 $boost=3,site=deletescape.ch
@@ -1598,6 +1606,7 @@ $boost=3,site=erambert.me
 $boost=3,site=eric-pierce.com
 $boost=3,site=eric.pe
 $boost=3,site=ericaheinz.com
+$boost=3,site=ericgregorich.blog
 $boost=3,site=erickhun.com
 $boost=3,site=ericlippert.com
 $boost=3,site=ericmurphy.xyz
@@ -1907,6 +1916,7 @@ $boost=3,site=hamneggs716.com
 $boost=3,site=handbook.id
 $boost=3,site=hanki.dev
 $boost=3,site=hans.gerwitz.com
+$boost=3,site=hansfast.net
 $boost=3,site=haothitran.com
 $boost=3,site=harambasic.de
 $boost=3,site=hardi.design
@@ -1941,6 +1951,7 @@ $boost=3,site=herbertlui.net
 $boost=3,site=herbsutter.com
 $boost=3,site=herczegzsolt.hu
 $boost=3,site=herestomwiththeweather.com
+$boost=3,site=herman.bearblog.dev
 $boost=3,site=herman.bearblog.dev
 $boost=3,site=hermanschaaf.com
 $boost=3,site=herrherrmann.net
@@ -1977,6 +1988,7 @@ $boost=3,site=hoverbear.org
 $boost=3,site=hth.is
 $boost=3,site=html-chunder.neocities.org
 $boost=3,site=httpster.io
+$boost=3,site=hudochenkov.com
 $boost=3,site=huey.xyz
 $boost=3,site=hugo.md
 $boost=3,site=hugo.soucy.cc
@@ -2387,6 +2399,7 @@ $boost=3,site=knowler.dev
 $boost=3,site=knuspermagier.de
 $boost=3,site=koaning.io
 $boost=3,site=koljapluemer.com
+$boost=3,site=konger.online
 $boost=3,site=konloch.com
 $boost=3,site=koprowski.it
 $boost=3,site=korayer.de
@@ -2475,6 +2488,7 @@ $boost=3,site=lengrand.fr
 $boost=3,site=leonid.shevtsov.me
 $boost=3,site=leoniewise.com
 $boost=3,site=leozqin.me
+$boost=3,site=lepisma.xyz
 $boost=3,site=lepisma.xyz
 $boost=3,site=lesleylai.info
 $boost=3,site=leslie.dev
@@ -2640,6 +2654,7 @@ $boost=3,site=mariocarrion.com
 $boost=3,site=mariosfakiolas.com
 $boost=3,site=mariovillalobos.com
 $boost=3,site=marisa.club
+$boost=3,site=marisabel.nl
 $boost=3,site=marius.ink
 $boost=3,site=mark.mcnally.je
 $boost=3,site=markboulton.co.uk
@@ -2704,6 +2719,7 @@ $boost=3,site=mattstein.com
 $boost=3,site=mattthequick.bearblog.dev
 $boost=3,site=mattwarren.org
 $boost=3,site=mattwynne.net
+$boost=3,site=maurice-renck.de
 $boost=3,site=maurice-renck.de
 $boost=3,site=mavengame.com
 $boost=3,site=max.engineer
@@ -4087,6 +4103,7 @@ $boost=3,site=vishnu.tech
 $boost=3,site=vishnugopal.com
 $boost=3,site=vishwas.tech
 $boost=3,site=visitmy.website
+$boost=3,site=visualgui.com
 $boost=3,site=vit.baisa.cz
 $boost=3,site=vitabenes.com
 $boost=3,site=vittorioromeo.info
@@ -4383,6 +4400,7 @@ $boost=3,site=conradakunga.com
 $boost=3,site=conscienceround.com
 $boost=3,site=conscienceround.com
 $boost=3,site=copetti.org
+$boost=3,site=coryd.dev
 $boost=3,site=cppstories.com
 $boost=3,site=craigkerstiens.com
 $boost=3,site=craigmclachlan.co.uk
@@ -5208,6 +5226,7 @@ $boost=3,site=usebox.net
 $boost=3,site=usuallypragmatic.com
 $boost=3,site=vadimbulavin.com
 $boost=3,site=valcanbuild.tech
+$boost=3,site=vandee.art
 $boost=3,site=vandee.art
 $boost=3,site=vegard.net
 $boost=3,site=velcro-city.co.uk
