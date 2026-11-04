@@ -23,6 +23,15 @@ jobs:
       with:
         compiler: dmd
 
+    - name: Fetch dependencies
+      run: |
+        for i in 1 2 3 4 5; do
+          dub upgrade --missing-only && exit 0
+          echo "dub fetch failed (attempt $i), retrying..."
+          sleep $((i * 20))
+        done
+        exit 1
+
     - name: Run dub
       run: dub run
 
